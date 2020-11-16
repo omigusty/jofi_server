@@ -1,0 +1,61 @@
+$fontColor: #152C5B;
+$Green: #28C76F;
+$Blue: #3895f8;
+$Yellow: #FFC107;
+$darkBlue: #0357b1;
+$colorText: #858A96;
+$Light: #dfdddd;
+$myFont: 'Merriweather', serif;
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', Helvetica, serif;
+}
+
+.container{
+    width: 912px;
+    margin-top: 50px;
+}
+
+.talenta-profile{
+    h1{
+        font-size: 26px;
+        font-weight: 600;
+        color: $fontColor;
+        margin-bottom: 25px;
+        font-family: $myFont;
+    }
+    h2{
+        font-size: 16px;
+        font-weight: 400;
+        color: $colorText;
+    }
+    .heading{
+        height: 42px;
+        h2{
+            font-size: 19px;
+            font-weight: 700;
+            color:$fontColor
+        }
+    }
+}
+
+.form-group{
+    #nama,
+    #bidang_studi{
+        width: 290px;
+    }
+    input{
+        background-color: #e5e5e5;
+    }
+}
+
+.deskripsi{
+    width: 525px;
+    margin-bottom: 55px;
+    .form-control{
+        height: 380px;
+        background-color: #e5e5e5;
+    }
+}

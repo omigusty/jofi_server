@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', Helvetica, serif;
+}
+
+.container {
+  width: 912px;
+  margin-top: 70px;
+}
+
+.talenta-profile h1 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #152C5B;
+  margin-bottom: 5px;
+}
+
+.talenta-profile h2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #858A96;
+}
+
+.talenta-profile .heading {
+  height: 42px;
+}
+
+.talenta-profile .heading h2 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #152C5B;
+}
+
+.talenta-profile p {
+  color: #858A96;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.heading h2 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #152C5B;
+}
+
+.col-4 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.col-4 .social-links {
+  margin-top: 35px;
+}
+
+.col-4 .social-links .btn-outline-primary {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card .portofolio-thumbnail {
+  width: 252px;
+  height: 120px;
+  margin-left: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card img:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-filter: none;
+          filter: none;
+}
+
+.card .card-title {
+  font-size: 16px;
+  font-weight: 100;
+  margin-left: -10px;
+  margin-top: -8px;
+  width: 252px;
+  margin-bottom: -8px;
+  color: #858A96;
+}
+
+.card .card-body {
+  margin-bottom: 2px;
+}
+/*# sourceMappingURL=detail_talenta.css.map */

@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', Helvetica, serif;
+}
+
+.navbar .navbar-brand img {
+  width: 120px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  letter-spacing: 0.7px;
+  margin-left: 15px;
+}
+
+.navbar-nav .active {
+  color: #FFC107 !important;
+}
+
+.navbar-nav .btn-outline-success {
+  border-radius: 30px;
+  color: #fff;
+  margin-left: 15px;
+  background-color: #28C76F;
+  border: none;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 480px;
+  background: -webkit-gradient(linear, right top, left top, from(#0357b1), to(#3895f8));
+  background: linear-gradient(270deg, #0357b1, #3895f8);
+  overflow: hidden;
+}
+
+section .wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-image: url("/img/wave.png");
+  background-size: 1000px 100px;
+}
+
+section .wave.wave1 {
+  -webkit-animation: animate 30s linear infinite;
+          animation: animate 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  bottom: 0;
+}
+
+section .wave.wave2 {
+  -webkit-animation: animate2 15s linear infinite;
+          animation: animate2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+  bottom: 10px;
+}
+
+section .wave.wave3 {
+  -webkit-animation: animate3 30s linear infinite;
+          animation: animate3 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+  bottom: 15;
+}
+
+section .wave.wave4 {
+  -webkit-animation: animate4 5s linear infinite;
+          animation: animate4 5s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+  bottom: 20px;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+@-webkit-keyframes animate2 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+.tittle-header {
+  height: 280px;
+}
+
+.tittle-header h1 {
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+.tittle-header p {
+  text-align: center;
+  font-size: 16px;
+  color: #dfdddd;
+}
+
+.container h2 {
+  color: #152C5B;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  word-spacing: 2px;
+}
+
+.container h2 span {
+  color: #3895f8;
+}
+
+.container .sub-title {
+  color: #858A96;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  height: 155px;
+  width: 354px;
+  margin-bottom: 30px;
+  -webkit-transition: .7s;
+  transition: .7s;
+  cursor: pointer;
+}
+
+.card .rounded-circle {
+  width: 70px;
+  overflow: hidden;
+  margin-top: -5px;
+}
+
+.card h5 {
+  color: #152C5B;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 90px;
+  margin-top: -65px;
+}
+
+.card p {
+  color: #858A96;
+  font-weight: 400;
+}
+
+.card .company {
+  margin-left: 90px;
+  margin-top: -2px;
+  margin-bottom: -4px;
+}
+
+.card .lokasi {
+  margin-left: 90px;
+  margin-bottom: -4px;
+}
+
+.card .tanggal {
+  font-size: 12px;
+  margin-top: 35px;
+  margin-left: 90px;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  background-color: #1e1e1e;
+}
+
+footer .deskripsi-singkat {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #626262;
+}
+
+footer span {
+  font-size: 15px;
+  font-weight: 400;
+  color: #626262;
+}
+
+footer h5 {
+  font-size: 15px;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+.copyrigt {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.14px;
+  color: #626262;
+}
+/*# sourceMappingURL=pekerjaan.css.map */

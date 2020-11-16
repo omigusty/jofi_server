@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', Helvetica, serif;
+}
+
+.deskripsi {
+  margin-top: 40px;
+}
+
+.deskripsi h1 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #152C5B;
+  font-family: "Merriweather", serif;
+}
+
+.deskripsi p {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  color: #858A96;
+}
+
+.about-job {
+  margin-top: 90px;
+}
+
+.about-job .card {
+  border-radius: 8px;
+}
+
+.card-body h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #152C5B;
+}
+
+.card-body i {
+  margin-right: 17px;
+}
+
+.card-body .lokasi {
+  margin-right: 20px;
+}
+
+.card-body p {
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: #858A96;
+}
+/*# sourceMappingURL=detail_pekerjaan.css.map */

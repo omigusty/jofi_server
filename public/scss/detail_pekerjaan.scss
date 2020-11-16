@@ -1,0 +1,56 @@
+$fontColor: #152C5B;
+$Green: #28C76F;
+$Blue: #3895f8;
+$Yellow: #FFC107;
+$darkBlue: #0357b1;
+$colorText: #858A96;
+$Light: #dfdddd;
+$myFont: 'Merriweather', serif;
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', Helvetica, serif;
+}
+
+.deskripsi{
+    margin-top: 40px;
+    h1{
+        font-size: 26px;
+        font-weight: 600;
+        color: $fontColor;
+        font-family: $myFont;
+    }
+    p{
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        line-height: 24px;
+        color: $colorText;
+    }
+}
+
+.about-job{
+    margin-top: 90px;
+    .card{
+        border-radius: 8px;
+    }
+}
+
+.card-body{
+    h5{
+   font-size: 18px;
+   font-weight: 700;
+   color: $fontColor;
+    }
+    i{
+        margin-right: 17px;
+    }
+    .lokasi{
+        margin-right: 20px;
+    }
+    p{
+        font-size: 16px;
+        margin-bottom: 0px;
+        color: $colorText;
+    }
+}

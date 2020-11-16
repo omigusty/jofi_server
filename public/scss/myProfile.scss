@@ -1,0 +1,112 @@
+$fontColor: #152C5B;
+$Green: #28C76F;
+$Blue: #3895f8;
+$Yellow: #FFC107;
+$darkBlue: #0357b1;
+$colorText: #858A96;
+$Light: #dfdddd;
+$myFont: 'Merriweather', serif;
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', Helvetica, serif;
+}
+
+.container{
+    width: 912px;
+    margin-top: 70px;
+}
+
+.talenta-profile{
+    h1{
+        font-size: 26px;
+        font-weight: 600;
+        color: $fontColor;
+        margin-bottom: 5px;
+    }
+    h2{
+        font-size: 16px;
+        font-weight: 400;
+        color: $colorText;
+    }
+    .heading{
+        height: 42px;
+        h2{
+            font-size: 19px;
+            font-weight: 700;
+            color:$fontColor
+        }
+    }
+    p{
+        color: $colorText;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+        line-height: 24px;
+    }
+}
+
+.heading{
+    h2{
+        font-size: 19px;
+        font-weight: 700;
+        color:$fontColor
+    }
+}
+
+.col-4{
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .social-links{
+        margin-top: 35px;
+        .btn-outline-primary{
+            width: 200px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+}
+
+.card{
+    margin-bottom: 30px;
+    .portofolio-thumbnail{
+        width: 252px;
+        height: 120px;
+        margin-left: 10px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    img{
+        filter: grayscale(100%);
+        transition: 0.5s;
+    }
+    img:hover{
+        transition: 0.5s;
+      filter: none;
+    }
+    .card-title{
+        font-size: 16px;
+        font-weight: 100;
+        margin-left: -10px;
+        margin-top: -8px;
+        width: 252px;
+        margin-bottom: -8px;
+        color: $colorText;
+    }
+    .card-body{
+        margin-bottom: 2px;
+    }
+}
+
+.btn-primary{
+    width: 200px;
+}
+
+.btn-warning{
+    width: 200px;
+    color: #fff;
+}

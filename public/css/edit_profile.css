@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', Helvetica, serif;
+}
+
+.container {
+  width: 912px;
+  margin-top: 50px;
+}
+
+.talenta-profile h1 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #152C5B;
+  margin-bottom: 25px;
+  font-family: "Merriweather", serif;
+}
+
+.talenta-profile h2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #858A96;
+}
+
+.talenta-profile .heading {
+  height: 42px;
+}
+
+.talenta-profile .heading h2 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #152C5B;
+}
+
+.form-group #nama,
+.form-group #bidang_studi {
+  width: 290px;
+}
+
+.form-group input {
+  background-color: #e5e5e5;
+}
+
+.deskripsi {
+  width: 525px;
+  margin-bottom: 55px;
+}
+
+.deskripsi .form-control {
+  height: 380px;
+  background-color: #e5e5e5;
+}
+/*# sourceMappingURL=edit_profile.css.map */

@@ -1,0 +1,144 @@
+$fontColor: #152C5B;
+$Green: #28C76F;
+$Blue: #3895f8;
+$Yellow: #FFC107;
+$darkBlue: #0357b1;
+$colorText: #858A96;
+$Light: #dfdddd;
+$myFont: 'Merriweather', serif;
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', Helvetica, serif;
+}
+
+body{
+    background-color: #faf5f5;
+}
+
+section{
+    height: 385px;
+    background: linear-gradient(270deg, $darkBlue, $Blue);
+}
+
+.navbar{
+    .navbar-brand img{
+        width: 120px;
+    }
+}
+
+.navbar-nav{
+    .nav-link{
+        color: #fff !important;
+        letter-spacing: 0.7px;
+        margin-left: 15px;
+    }
+    .active{
+        color: $Yellow !important;
+    }
+    .btn-outline-success{
+        border-radius: 30px;
+        color: #fff;
+        margin-left: 15px;
+        background-color: $Green;
+        border: none;
+    }
+}
+
+.main-content{
+height: 200px;
+}
+.text-header{
+    width: 475px;
+    margin-bottom: 0px;
+    h1{
+        font-size: 36px;
+        font-family: $myFont;
+        color: #fff;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 20px;
+        color: $Light;
+    }
+}
+
+.card{
+    width: 318px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    .rounded-circle{
+        width: 60px;
+        overflow: hidden;
+        margin-left:16px;
+        margin-top: 16px;
+    }
+    h6{
+        margin-left: 96px;
+        font-size: 16px;
+        font-weight: 500;
+        color: $fontColor;
+        margin-top: -52px;
+        span{
+            font-size: 14px;
+            color: $colorText;
+            font-weight: 100;
+        }
+    }
+    .card-body{
+       margin-top: 4px;
+       .box-portofolio{
+           height: 170px;
+           background-color: red;
+           overflow: hidden;
+       }
+       .btn-primary{
+           width: 249px;
+           margin-top: 16px;
+           background-color: #2c4fad;
+           border: #2c4fad;
+           font-size: 16px;
+           line-height: 24px;
+           height: 36px;
+           letter-spacing: 0.2px;
+           text-align: center;
+           vertical-align: middle !important;
+       }
+       .btn-primary:hover{
+        background-color: #244295;
+        border: #244295;
+       }
+    }
+}
+
+footer{
+    background-color: #1e1e1e;
+    .deskripsi-singkat{
+        margin-top: 15px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #626262;
+    }
+   span{
+    font-size: 15px;
+    font-weight: 400;
+    color: #626262;
+   }
+   h5{
+       font-size: 15px;
+   }
+   li{
+       list-style-type: none;
+   }
+}
+
+.copyrigt{
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 0.14px;
+      color: #626262;
+}

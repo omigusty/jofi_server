@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', Helvetica, serif;
+}
+
+.post-loker {
+  width: 760px;
+  margin-top: 20px;
+}
+
+#post {
+  width: 340px;
+  margin-top: 25px;
+}
+
+#post p {
+  font-size: 14px;
+  color: #152C5B;
+}
+
+#post #adress,
+#post #name-company,
+#post #job-need {
+  background-color: #EFEFEF;
+  border: #EFEFEF;
+  font-size: 14px;
+  color: #152C5B;
+  height: 45px;
+  padding: 11px 12px 11px 12px;
+}
+
+#post #adress:focus {
+  background-color: #fff;
+  border: 1px solid #635ea7;
+}
+
+#post #name-company:focus {
+  background-color: #fff;
+  border: 1px solid #635ea7;
+}
+
+#post #job-need:focus {
+  background-color: #fff;
+  border: 1px solid #635ea7;
+}
+
+.text-area textarea {
+  height: 220px;
+  background-color: #efefef;
+}
+
+.text-header {
+  width: 340px;
+}
+
+.text-header img {
+  width: 170px;
+}
+
+.text-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Merriweather", serif;
+}
+/*# sourceMappingURL=post_pekerjaan.css.map */
