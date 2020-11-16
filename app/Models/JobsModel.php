@@ -15,6 +15,11 @@ class JobsModel extends Model
         if ($slug == false) {
             return $this->findAll();
         }
-        return  $this->where(['slug' => $slug])->first();
+        return $this->where(['slug' => $slug])->first();
+    }
+
+    public function search($keyword)
+    {
+        return $this->table('jobs')->like('title', $keyword);
     }
 }

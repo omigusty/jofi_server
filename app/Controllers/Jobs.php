@@ -15,11 +15,18 @@ class Jobs extends BaseController
 
     public function index()
     {
+        $keyword = $this->request->getVar('keyword');
+
+        if ($keyword) {
+            $jobSearch = $this->jobsModel->search($keyword);
+        } else {
+            $jobSearch = $this->jobsModel;
+        }
 
         $data = [
             'title' => 'Daftar Pekerjaan',
             // 'jobs' => $this->jobsModel->getJob()
-            'jobs' => $this->jobsModel->paginate(9, 'jobs'),
+            'jobs' => $jobSearch->paginate(9, 'jobs'),
             'pager' => $this->jobsModel->pager,
         ];
         return view('Jobs/Index', $data);

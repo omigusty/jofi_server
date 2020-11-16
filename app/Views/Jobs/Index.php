@@ -5,6 +5,16 @@
     <div class="container mt-2">
         <h2 data-aos="fade-up">Pekerjaan yang <span>tersedia</span></h2>
         <p class="sub-title" data-aos="fade-up">Data akan diurutkan berdasarkan postingan terbaru</p>
+       <div class="d-flex justify-content-center">
+            <form action="" method="POST">
+                <div class="input-group mb-5" data-aos="fade-up" style="width: 400px;">
+                    <input type="text" class="form-control" autocomplete="off" name="keyword" placeholder="Cari Pekerjaan">
+                    <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="submit" name="submit">Cari</button>
+                    </div>
+                </div>
+            </form>
+        </div>
         <div class="list-job mt-4">
             <div class="row d-flex justify-content-center">
                 <?php foreach ($jobs as $job): ?>
