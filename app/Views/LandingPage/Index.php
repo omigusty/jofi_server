@@ -10,7 +10,7 @@
                 <div class="row d-flex justify-content-center">
                     <?php foreach ($jobs as $job): ?>
                         <div class="col-sm-4">
-                            <a href="#" style="text-decoration: none;">
+                            <a href="/detail/<?=$job['slug'];?>" style="text-decoration: none;">
                                 <div class="card" data-aos="fade-up">
                                     <div class="card-body">
                                         <img src="img/<?=$job['brand_logo'];?>" alt="..." class="rounded-circle">

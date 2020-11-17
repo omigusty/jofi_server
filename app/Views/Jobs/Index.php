@@ -26,7 +26,7 @@
                                     <h5><?=$job['title'];?></h5>
                                     <p class="company"><?=$job['company_name'];?></p>
                                     <p class="lokasi"><?=$job['city'];?></p>
-                                    <p class="tanggal">Diposting tanggal 22 September 2020</p>
+                                    <p class="tanggal"><?=$job['created_at'];?></p>
                                 </div>
                             </div>
                         </a>

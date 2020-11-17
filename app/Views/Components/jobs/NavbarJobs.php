@@ -12,8 +12,12 @@
                       <a class="nav-link active" href="/Jobs">Pekerjaan</a>
                       <a class="nav-link" href="/jobs/create">Tambah Pekerjaan</a>
                       <a class="nav-link" href="talenta.html">Talenta</a>
-                      <a href="login.html" type="button" class="btn btn-outline-success">Masuk Akun</a>
-                  </div>
+                      <?php if (logged_in()): ?>
+                      <a href="/logout" type="button" class="btn btn-outline-success">Keluar Akun</a>
+                      <?php else: ?>
+                        <a href="/login" type="button" class="btn btn-outline-success">Masuk Akun</a>
+                      <?php endif;?>
+                    </div>
               </div>
           </div>
       </nav>
