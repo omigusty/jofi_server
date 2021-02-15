@@ -10,12 +10,12 @@
                     <a class="nav-link active" href="/">Home</a>
                     <a class="nav-link" href="/jobs">Pekerjaan</a>
                     <a class="nav-link" href="/jobs/create">Posting Pekerjaan</a>
-                    <a class="nav-link" href="talenta.html">Talenta</a>
-                    <?php if (logged_in()): ?>
-                     <a href="/logout" type="button" class="btn btn-outline-success">Keluar Akun</a>
-                    <?php else: ?>
-                     <a href="/login" type="button" class="btn btn-outline-success">Masuk Akun</a>
-                    <?php endif;?>
+                    <!-- <a class="nav-link" href="talenta.html">Talenta</a> -->
+                    <?php if (logged_in()) : ?>
+                        <a href="/logout" type="button" class="btn btn-outline-success">Keluar Akun</a>
+                    <?php else : ?>
+                        <a href="/login" type="button" class="btn btn-outline-success">Masuk Akun</a>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
